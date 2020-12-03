@@ -1,6 +1,4 @@
-DROP DATABASE IF EXISTS BarberShopAppointmentBookings;
-
-CREATE DATABASE BarberShopAppointmentBookings;
+CREATE DATABASE IF NOT EXISTS BarberShopAppointmentBookings;
 
 USE BarberShopAppointmentBookings;
 
